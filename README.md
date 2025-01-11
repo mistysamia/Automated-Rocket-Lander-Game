@@ -7,7 +7,6 @@ This project involves training and testing a neural network model for the Rocket
 ## Step 1: Dataset and File Setup
 
   **Unzip and Load Files**:  
-  
       - Unzip the `Dataset.csv.zip` file.
       
       - Place the following files in the same folder:
