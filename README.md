@@ -8,7 +8,9 @@ This project involves training and testing a neural network model for the Rocket
 
   **Unzip and Load Files**:  
       - Unzip the `Dataset.csv.zip` file.
+      
       - Place the following files in the same folder:
+        
         - `Dataset.csv`
         - `Neural_Network_Data_Train_Rocket_Game.ipynb`
         - `Neural_Network_Data_Test_Rocket_Game.ipynb`
