@@ -1,6 +1,6 @@
 # Neural Network Rocket Game Training and Testing
 
-This project involves training and testing a neural network model for the Rocket Game. Follow the steps below to set up the files, train the model, and integrate it with the game.
+This project involves training and testing a neural network model for the Rocket Game. The goal is to develop an automated rocket game where the rocket will land automatically by identifying the optimal landing area. Follow the steps below to set up the files, train the model, and integrate it with the game.
 
 ---
 
@@ -39,7 +39,7 @@ This project involves training and testing a neural network model for the Rocket
  > **Note**: Select the hyperparameters that provide the **Best Performance**, characterized by a **Lower RMSE Value** and achieved within **fewer epochs**.
 ---
 
-## Step 2: Testing the Model
+## Step 3: Testing the Model
 
 1. Open `Neural_Network_Data_Test_Rocket_Game.ipynb`:
    - Update the **Import Libraries** section with the path to `NormaliseDataforTest.csv`.
@@ -51,7 +51,7 @@ This project involves training and testing a neural network model for the Rocket
 
 ---
 
-## Step 3: Game Setup
+## Step 4: Game Setup
 
 1. **Download the Game File**:
    
