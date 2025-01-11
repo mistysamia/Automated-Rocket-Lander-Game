@@ -7,7 +7,9 @@ This project involves training and testing a neural network model for the Rocket
 ## Step 1: Dataset and File Setup
 
   **Unzip and Load Files**:  
+  
       - Unzip the `Dataset.csv.zip` file.
+      
       - Place the following files in the same folder:
         - `Dataset.csv`
         - `Neural_Network_Data_Train_Rocket_Game.ipynb`
@@ -54,7 +56,7 @@ This project involves training and testing a neural network model for the Rocket
 
 1. **Download the Game File**:
    
-  Download the required game files from the provided source.
+     Download the required game files [here](https://drive.google.com/drive/folders/1bGAeSXdoBgnuq01MAQWKVm6vQPHrBNDo).
 
 2. **Update the Neural Network Holder**:
    - Open the `NeuralNetHolder.py` file and update it with the provided code.
