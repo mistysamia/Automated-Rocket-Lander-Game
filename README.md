@@ -26,6 +26,9 @@ This project involves training and testing a neural network model for the Rocket
    2. In the **Getting the Weights** section, save the updated weights:
       - Input layer weights: `weights_input_hidden`
       - Output layer weights: `weights_hidden_output`
+   3. In the **Normalization** section, save the min and max values for:  
+      - `x-axis` and `y-axis`  
+      - `x-vector` and `y-vector` 
 
    ### Find the Hyperparameters:
    1. Create a folder to find the Hyperparameters in **MATLAB**
