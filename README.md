@@ -61,6 +61,11 @@ This project involves training and testing a neural network model for the Rocket
    - Open the `NeuralNetHolder.py` file and update it with the provided code.
    - Replace the **Lambda Value** in the file with the one trained for your model.
    - Replace the **weights** with your updated weights from the training process.
+   - Replace the following values in the file:  
+     - `self.min_vals` with the minimum values of `x_axis` and `y_axis`.  
+     - `self.max_vals` with the maximum values of `x_axis` and `y_axis`.  
+     - `self.min_vector` with the minimum values of `x_vector` and `y_vector`.  
+     - `self.max_vector` with the maximum values of `x_vector` and `y_vector`. 
 
 ---
 
