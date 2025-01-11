@@ -1,6 +1,6 @@
 # Neural Network Rocket Game Training and Testing
 
-This project involves training and testing a neural network model for the Rocket Game. The goal is to develop an automated rocket game where the rocket will land automatically by identifying the optimal landing area. Follow the steps below to set up the files, train the model, and integrate it with the game.
+This project involves training and testing a neural network model for the Rocket Game. The goal is to develop an automated rocket game where the rocket will land automatically by finding the landing area. Follow the steps below to set up the files, train the model, and integrate it with the game.
 
 ---
 
