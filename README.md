@@ -11,9 +11,10 @@ This project involves training and testing a neural network model for the Rocket
     
     2. Place the following files in the same folder.
     
-        - `Dataset.csv`
-        - `Neural_Network_Data_Train_Rocket_Game.ipynb`
-        - `Neural_Network_Data_Test_Rocket_Game.ipynb`
+    3. Place the following files in the same folder:
+      - `Dataset.csv`
+      - `Neural_Network_Data_Train_Rocket_Game.ipynb`
+      - `Neural_Network_Data_Test_Rocket_Game.ipynb`
 
 ## Step 2: Fnding Hyperparameters and Model Training 
 
