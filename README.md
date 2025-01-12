@@ -69,7 +69,17 @@ This project involves training and testing a neural network model for the Rocket
      - `self.min_vals` with the minimum values of `x_axis` and `y_axis`.  
      - `self.max_vals` with the maximum values of `x_axis` and `y_axis`.  
      - `self.min_vector` with the minimum values of `x_vector` and `y_vector`.  
-     - `self.max_vector` with the maximum values of `x_vector` and `y_vector`. 
+     - `self.max_vector` with the maximum values of `x_vector` and `y_vector`.
+     
+3. **Run the Setup**:  
+1. Open the terminal.  
+2. Navigate to the `Scripts` folder and activate the virtual environment:  
+   ```bash
+   .\activate
+   cd ../../
+   pip install -r .\requirements.txt
+   python .\Main.py
+```
 
 ---
 
