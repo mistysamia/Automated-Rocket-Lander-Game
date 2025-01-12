@@ -1,6 +1,8 @@
-# Neural Network Rocket Game Training and Testing
+# Rocket Lander Game
 
-This project involves training and testing a neural network model for the Rocket Game. The goal is to develop an automated rocket game where the rocket will land automatically by finding the landing area. Follow the steps below to set up the files, train the model, and integrate it with the game.
+This project focuses on designing, training, and testing a neural network model for the Rocket Lander Game, aiming to develop an automated system where the rocket can land autonomously by identifying and navigating to a safe landing area. The goal is to ensure the rocket lands without hitting unsafe terrain or obstacles.
+
+The game will randomly generate a landing zone along with unsafe terrains, challenging the rocket to land safely. Initially, players will manually control the rocket to gather data by successfully completing the task. This data will then be used to train a neural network model capable of mimicking the task autonomously.
 
 ---
 ## Environment Setup
