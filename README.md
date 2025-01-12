@@ -1,4 +1,4 @@
-# Rocket Lander Game
+# Automated Rocket Lander Game
 
 This project focuses on designing, training, and testing a neural network model for the Rocket Lander Game, aiming to develop an automated system where the rocket can land autonomously by identifying and navigating to a safe landing area. The goal is to ensure the rocket lands without hitting unsafe terrain or obstacles.
 
