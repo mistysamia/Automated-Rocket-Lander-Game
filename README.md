@@ -14,7 +14,7 @@ This project involves training and testing a neural network model for the Rocket
    - `Neural_Network_Data_Test_Rocket_Game.ipynb`  
 
 
-## Step 2: Fnding Hyperparameters and Model Training 
+## Step 2: Finding Hyperparameters and Model Training 
 
 **Train the Model**:  
    Run the training file for each hyperparameter obtained from MATLAB until the optimal hyperparameters are identified.
@@ -62,6 +62,7 @@ This project involves training and testing a neural network model for the Rocket
 
 2. **Update the Neural Network Holder**:
    - Open the `NeuralNetHolder.py` file and update it with the provided code.
+   - If the Operating System is **Mac** then, open the `GameLoop.py` file and update it with the provided code.
    - Replace the **Lambda Value** in the file with the one trained for your model.
    - Replace the **weights** with your updated weights from the training process.
    - Replace the following values in the file:  
