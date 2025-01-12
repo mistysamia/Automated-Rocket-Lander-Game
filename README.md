@@ -3,8 +3,32 @@
 This project involves training and testing a neural network model for the Rocket Game. The goal is to develop an automated rocket game where the rocket will land automatically by finding the landing area. Follow the steps below to set up the files, train the model, and integrate it with the game.
 
 ---
+## Environment Setup
+   
+   - Download the required game files [here](https://drive.google.com/drive/folders/1bGAeSXdoBgnuq01MAQWKVm6vQPHrBNDo).
+   - If the Operating System is **Mac** then, open the `GameLoop.py` file and update it with the provided code.
 
-## Step 1: Dataset and File Setup
+     
+   - **Run the Setup**:  
+        1.   Open the terminal.  
+        2.  Navigate to the `Scripts` folder and activate the virtual environment:  
+      ```bash
+      .\activate
+      cd ../../
+      pip install -r .\requirements.txt
+      python .\Main.py
+        ```
+
+## Dataset Collection     
+  1. The game should be run.  
+  2. Navigate to the `Data Collection` option.  
+  3. The game must be won to collect the data.  
+  4. Once the data collection is completed, a file named `ce889_dataCollection.csv` will be generated.  
+      This file will contain the collected data with 4 columns. 
+
+
+## Automated Game Execution
+### Step 1: Dataset and File Setup
 
 **Unzip and Load Files**:  
 1. Unzip the `Dataset.csv.zip` file.  
@@ -14,12 +38,12 @@ This project involves training and testing a neural network model for the Rocket
    - `Neural_Network_Data_Test_Rocket_Game.ipynb`  
 
 
-## Step 2: Finding Hyperparameters and Model Training 
+### Step 2: Finding Hyperparameters and Model Training 
 
 **Train the Model**:  
    Run the training file for each hyperparameter obtained from MATLAB until the optimal hyperparameters are identified.
 
-   ### Instructions for Training:
+   #### Instructions for Training:
    1. Open `Neural_Network_Data_Train_Rocket_Game.ipynb`:
       - Update the **Import Libraries** section with the correct file path.
       - After execution, `NormaliseDataforTest.csv` and `Normalize.csv` files will be saved in the same folder.
@@ -30,7 +54,7 @@ This project involves training and testing a neural network model for the Rocket
       - `x-axis` and `y-axis`  
       - `x-vector` and `y-vector` 
 
-   ### Find the Hyperparameters:
+   #### Find the Hyperparameters:
    1. Create a folder to find the Hyperparameters in **MATLAB**
    2. Use the `Normalize.csv` file generated in the previous step.  
       Place it in the same folder as `Neural_Network_Matlab_toolbox_Script.m`.
@@ -42,7 +66,7 @@ This project involves training and testing a neural network model for the Rocket
  > **Note**: Select the hyperparameters that provide the **Best Performance**, characterized by a **Lower RMSE Value** and achieved within **fewer epochs**.
 ---
 
-## Step 3: Testing the Model
+### Step 3: Testing the Model
 
 1. Open `Neural_Network_Data_Test_Rocket_Game.ipynb`:
    - Update the **Import Libraries** section with the path to `NormaliseDataforTest.csv`.
@@ -54,37 +78,24 @@ This project involves training and testing a neural network model for the Rocket
 
 ---
 
-## Step 4: Game Setup
+### Step 4: Game Setup
 
-1. **Download the Game File**:
-   
-     Download the required game files [here](https://drive.google.com/drive/folders/1bGAeSXdoBgnuq01MAQWKVm6vQPHrBNDo).
+1. Open the `NeuralNetHolder.py` file and update it with the provided code.
 
-2. **Update the Neural Network Holder**:
-   - Open the `NeuralNetHolder.py` file and update it with the provided code.
-   - If the Operating System is **Mac** then, open the `GameLoop.py` file and update it with the provided code.
-   - Replace the **Lambda Value** in the file with the one trained for your model.
-   - Replace the **weights** with your updated weights from the training process.
-   - Replace the following values in the file:  
+2. Replace the **Lambda Value** in the file with the one trained for your model.
+3. Replace the **weights** with your updated weights from the training process.
+4. Replace the following values in the file:  
      - `self.min_vals` with the minimum values of `x_axis` and `y_axis`.  
      - `self.max_vals` with the maximum values of `x_axis` and `y_axis`.  
      - `self.min_vector` with the minimum values of `x_vector` and `y_vector`.  
      - `self.max_vector` with the maximum values of `x_vector` and `y_vector`.
-     
-3. **Run the Setup**:  
-    -  Open the terminal.  
-    - Navigate to the `Scripts` folder and activate the virtual environment:  
-      ```bash
-      .\activate
-      cd ../../
-      pip install -r .\requirements.txt
-      python .\Main.py
-        ```
+5. Run the Game.
+6. Navigate to the `Neural Network` option.  
 
 ---
 
-## Final Steps
+### Final Steps
 
-After completing all steps, run the game. The trained neural network should now effectively interact with the Rocket Game.
+By completing the outlined steps, the data collection process will be finalized, and the automated rocket will successfully land by identifying the target area. This demonstrates the effectiveness of the trained neural network in achieving the desired outcome.
 
 ---
